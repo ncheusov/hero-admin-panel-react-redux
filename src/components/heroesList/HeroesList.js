@@ -39,7 +39,7 @@ const HeroesList = () => {
     if (isLoading) {
         return <Spinner/>;
     } else if (isError) {
-        return <h5 className="text-center mt-5">Ошибка загрузки</h5>
+        return <h5 className="text-center mt-5">Ошибка загрузки!</h5>
     }
 
     const renderHeroesList = (arr) => {
